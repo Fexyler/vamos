@@ -1,0 +1,3 @@
+# Vamos!
+
+Vamos landing page.

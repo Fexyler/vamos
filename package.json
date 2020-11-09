@@ -11,7 +11,7 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o public/ui",
-    "icon": "svgr icons -d components/icons --icon"
+    "icon": "svgr src/icons -d ./src/components/icons --svg-props 'className=' --replace-attr-values \"#0098EE=currentColor\" --svgo-config .svgorc.json"
   },
   "dependencies": {
     "classnames": "^2.2.6",
