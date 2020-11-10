@@ -4,8 +4,9 @@ import StoreContext from '../store'
 
 import Layout from '../components/layout'
 import Button from '../components/button'
-import * as Icon from '../components/icons'
 import { THEME } from '../constants'
+import { Title } from '../components/text'
+import { Coming } from '../components/icons/illustration'
 
 function HomePage() {
   const store = useContext(StoreContext)
@@ -13,18 +14,19 @@ function HomePage() {
   return (
     <Layout>
       <Head>
-        <title>Home Page</title>
+        <title>Vamos!</title>
       </Head>
 
-      <h1>Home page</h1>
+      <Title />
+      <Coming style={{ fontSize: 335 }} />
+      <form action="#">
+        <input type="text" placeholder="Adınız" />
+        <button>Gönder</button>
+      </form>
 
       <br />
-
-      <Icon.Search style={{ fontSize: 24 }} />
-
       <br />
       <br />
-
       <div>
         Change Theme{' '}
         <Button
@@ -36,13 +38,6 @@ function HomePage() {
         >
           {store.theme === THEME.LIGHT ? 'Dark' : 'Light'}
         </Button>
-      </div>
-
-      <br />
-      <br />
-
-      <div>
-        API url (env): <b>{process.env.API_URL}</b>
       </div>
     </Layout>
   )

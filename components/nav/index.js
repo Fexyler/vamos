@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 import { PAGES } from '../../constants'
+import cn from 'classnames'
 
 import styles from './index.module.css'
 
-function Nav() {
+function Nav({ className }) {
   return (
-    <nav className={styles.nav}>
+    <nav className={cn(styles.nav, className)}>
       {Object.keys(PAGES).map((key) => {
         const PAGE = PAGES[key]
         return (

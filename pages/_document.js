@@ -1,17 +1,18 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import React from "react";
-import SiteConfig from "../site.config";
+import Document, { Html, Head, Main, NextScript } from 'next/document'
+import React from 'react'
+import SiteConfig from '../site.config'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+    const initialProps = await Document.getInitialProps(ctx)
+    return { ...initialProps }
   }
 
   render() {
     return (
       <Html lang={SiteConfig.lang}>
         <Head>
+          <link rel="stylesheet" href="/styles/font.css" />
           {/* facebook */}
           <meta property="og:url" content={SiteConfig.siteUrl} />
           <meta property="og:type" content="website" />
@@ -54,7 +55,7 @@ class MyDocument extends Document {
               <script
                 type="text/javascript"
                 dangerouslySetInnerHTML={{
-                  __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${SiteConfig.googleAnalytic}');`,
+                  __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${SiteConfig.googleAnalytic}');`
                 }}
               />
             </>
@@ -65,8 +66,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }
 
-export default MyDocument;
+export default MyDocument

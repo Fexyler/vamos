@@ -2,12 +2,12 @@ import React from 'react'
 
 import styles from './index.module.css'
 
-import Nav from '../nav'
+import Header from '../header'
 
 function Layout({ children }) {
   return (
     <div className={styles.layout}>
-      <Nav />
+      <Header />
       <main>{children}</main>
     </div>
   )

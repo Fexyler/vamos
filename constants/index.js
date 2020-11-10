@@ -4,12 +4,12 @@ export const THEME = {
 }
 
 export const PAGES = {
-  home: {
-    path: '/',
-    name: 'Home'
+  league: {
+    path: '/league',
+    name: 'Yatırımcılık Ligi'
   },
-  about: {
-    path: '/about',
-    name: 'About'
+  teams: {
+    path: '/teams',
+    name: 'Ekibimiz'
   }
 }
