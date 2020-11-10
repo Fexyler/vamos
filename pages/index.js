@@ -7,6 +7,7 @@ import Button from '../components/button'
 import { THEME } from '../constants'
 import { Title } from '../components/text'
 import { Coming } from '../components/icons/illustration'
+import Hero from '../components/hero'
 
 function HomePage() {
   const store = useContext(StoreContext)
@@ -17,12 +18,7 @@ function HomePage() {
         <title>Vamos!</title>
       </Head>
 
-      <Title />
-      <Coming style={{ fontSize: 335 }} />
-      <form action="#">
-        <input type="text" placeholder="Adınız" />
-        <button>Gönder</button>
-      </form>
+      <Hero />
 
       <br />
       <br />

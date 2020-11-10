@@ -8,5 +8,15 @@
 
   .nav {
     display: none;
+
+    @media (--d) {
+      display: flex;
+    }
+  }
+
+  .hamburger {
+    @media (--d) {
+      display: none;
+    }
   }
 }

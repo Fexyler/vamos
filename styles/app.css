@@ -32,16 +32,21 @@ img {
 }
 
 input[type='text'] {
+  font-family: Poppins;
   width: 100%;
   padding: 15px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border-radius: 8px;
   border: none;
+  background-color: var(--inputBG);
 
-  ::placeholder {
+  &::placeholder {
     font-family: Poppins;
     font-weight: 400;
+    color: var(--inputPlc);
+  }
+  &:read-write {
     color: var(--c-izmir);
   }
 }
@@ -56,4 +61,9 @@ button {
   font-family: Inter;
   font-weight: bold;
   color: white;
+}
+
+form {
+  display: flex;
+  align-items: center;
 }
