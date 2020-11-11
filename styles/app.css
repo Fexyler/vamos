@@ -41,6 +41,10 @@ input[type='text'] {
   border: none;
   background-color: var(--inputBG);
 
+  @media (--t) {
+    max-width: 270px;
+  }
+
   &::placeholder {
     font-family: Poppins;
     font-weight: 400;

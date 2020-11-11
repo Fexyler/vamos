@@ -11,7 +11,7 @@ function Header() {
       <LogoFont style={{ height: 33, width: 128 }} />
       <Nav className={styles.nav} />
       <HamburgerIcon className={styles.hamburger} style={{ fontSize: 24 }} />
-      <button>Lige Katıl!</button>
+      <Button className={styles.button}>Lige Katıl!</Button>
     </header>
   )
 }

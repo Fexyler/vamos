@@ -5,9 +5,9 @@ import StoreContext from '../store'
 import Layout from '../components/layout'
 import Button from '../components/button'
 import { THEME } from '../constants'
-import { Title } from '../components/text'
-import { Coming } from '../components/icons/illustration'
 import Hero from '../components/hero'
+import styles from '../components/hero/index.module.css'
+import MailForm from '../components/contact'
 
 function HomePage() {
   const store = useContext(StoreContext)
@@ -20,8 +20,6 @@ function HomePage() {
 
       <Hero />
 
-      <br />
-      <br />
       <br />
       <div>
         Change Theme{' '}

@@ -12,7 +12,6 @@ class MyDocument extends Document {
     return (
       <Html lang={SiteConfig.lang}>
         <Head>
-          <link rel="stylesheet" href="/styles/font.css" />
           {/* facebook */}
           <meta property="og:url" content={SiteConfig.siteUrl} />
           <meta property="og:type" content="website" />

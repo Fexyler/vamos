@@ -1,17 +1,16 @@
-.h1 {
-  font-size: 72px;
-  font-family: 'Inter';
-  line-height: 87px;
-  text-align: center;
-  color: var(--c-izmir);
-  margin-top: 20px;
-}
-
-.paragraph {
-  font-family: 'Poppins';
-  font-size: 18px;
-  line-height: 27px;
-  text-align: center;
+.descript {
   max-width: 335px;
+  text-align: center;
+  font-family: Poppins;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 20px;
+  @media (--d) {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    max-width: 500px;
+    text-align: left;
+    margin-top: 20px;
+  }
 }
