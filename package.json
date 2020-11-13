@@ -14,12 +14,15 @@
     "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#353535=currentColor\" --svgo-config .svgorc.json"
   },
   "dependencies": {
+    "@storybook/addon-knobs": "^6.0.28",
     "classnames": "^2.2.6",
     "next": "^9.5.1",
     "next-compose-plugins": "^2.2.0",
     "next-pwa": "^3.1.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.1",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",

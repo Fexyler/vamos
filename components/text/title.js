@@ -2,25 +2,23 @@ import React from 'react'
 import cn from 'classnames'
 
 import styles from './index.module.css'
-import MailForm from '../contact'
 
-function Title({ className, paragraph, h1, children }) {
+export const TitleH1 = ({ children, className, ...props }) => {
   return (
     <>
-      {h1 && <h1 className={cn(className)}>Coming Soon</h1>}
-
-      {paragraph && (
-        <>
-          <p className={styles.descript}>
-            Yapılış aşamasında. Gelişmelerden haberdar olmak için mail listemize
-            kayıt olasanadurasınız.
-          </p>
-        </>
-      )}
-
-      {children}
+      <h1 className={cn(styles.h1, className)} {...props}>
+        {children}
+      </h1>
     </>
   )
 }
 
-export default Title
+export const TitleH2 = ({ children, className, ...props }) => {
+  return (
+    <>
+      <h2 className={cn(styles.h2, className)} {...props}>
+        {children}
+      </h2>
+    </>
+  )
+}

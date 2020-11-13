@@ -6,8 +6,15 @@ import Layout from '../components/layout'
 import Button from '../components/button'
 import { THEME } from '../constants'
 import Hero from '../components/hero'
-import styles from '../components/hero/index.module.css'
-import MailForm from '../components/contact'
+import {
+  Motto,
+  Neden,
+  Nedir,
+  Neicin,
+  Projelerimiz
+} from '../components/sections'
+import League from '../components/sections/league'
+import { BodyText, TitleH2 } from '../components/text'
 
 function HomePage() {
   const store = useContext(StoreContext)
@@ -20,8 +27,31 @@ function HomePage() {
 
       <Hero />
 
-      <br />
-      <div>
+      <Motto />
+
+      <Nedir />
+
+      <Neden />
+
+      <Neicin />
+
+      <Projelerimiz />
+
+      <League />
+
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '100%',
+          height: 'auto',
+          paddingTop: 44
+        }}
+      >
+        <BodyText>Geliştiriyoruz...</BodyText>
+      </div>
+      {/*<div>
         Change Theme{' '}
         <Button
           onClick={() =>
@@ -32,7 +62,7 @@ function HomePage() {
         >
           {store.theme === THEME.LIGHT ? 'Dark' : 'Light'}
         </Button>
-      </div>
+      </div>*/}
     </Layout>
   )
 }

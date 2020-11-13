@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 555px;
+  position: relative;
+  margin-top: 244px;
+  @media (--d) {
+    flex-direction: row-reverse;
+    width: 1173px;
+    height: 700px;
+    position: relative;
+  }
+
+  .text {
+    padding: 20px;
+    position: absolute;
+    @media (--d) {
+      padding: initial;
+      bottom: 186px;
+      right: 136px;
+    }
+
+    .content {
+      margin-top: 20px;
+    }
+  }
+  .image {
+    position: absolute;
+    left: initial;
+    bottom: 4px;
+    z-index: -1;
+    @media (--d) {
+      bottom: initial;
+      left: -96px;
+    }
+  }
+}

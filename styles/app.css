@@ -55,18 +55,6 @@ input[type='text'] {
   }
 }
 
-button {
-  background: linear-gradient(181.02deg, #439fc0 0.73%, #0284cb 99.32%);
-  border: none;
-  height: 44px;
-  width: 144px;
-  border-radius: 8px;
-  font-size: 14px;
-  font-family: Inter;
-  font-weight: bold;
-  color: white;
-}
-
 form {
   display: flex;
   align-items: center;

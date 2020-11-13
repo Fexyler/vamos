@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 660px;
+  width: auto;
+  margin-top: 244px;
+  margin-bottom: 74px;
+
+  @media (--d) {
+    height: 920px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+  }
+
+  .text {
+    padding: 20px;
+    position: absolute;
+    top: -74px;
+    @media (--d) {
+      top: initial;
+      left: 0;
+      bottom: 244px;
+    }
+
+    .content {
+      margin-top: 20px;
+      max-width: 440px;
+    }
+  }
+
+  .image {
+    position: absolute;
+    z-index: -1;
+    bottom: -44px;
+    @media (--d) {
+      bottom: initial;
+      right: 0;
+    }
+  }
+}

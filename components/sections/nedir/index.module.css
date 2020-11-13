@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 144px;
+
+  @media (--t) {
+    flex-direction: row;
+  }
+
+  @media (--d) {
+    flex-direction: row;
+  }
+
+  .text {
+    padding: 20px;
+    @media (--d) {
+      max-width: 530px;
+      position: relative;
+      top: 25px;
+      height: auto;
+    }
+
+    .title {
+    }
+
+    .content {
+      margin-top: 20px;
+    }
+  }
+
+  .image {
+    margin-top: 20px;
+  }
+}

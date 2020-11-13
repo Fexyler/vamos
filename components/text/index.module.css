@@ -1,16 +1,46 @@
-.descript {
-  max-width: 335px;
+.h1 {
+  font-size: 16vw;
+  font-family: 'Inter';
+  line-height: 100%;
   text-align: center;
-  font-family: Poppins;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
+  max-width: 300px;
+  color: var(--c-izmir);
   @media (--d) {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 20px;
-    max-width: 500px;
+    max-width: 400px;
+    font-size: 10vw;
     text-align: left;
-    margin-top: 20px;
+    line-height: 116%;
+  }
+}
+
+.h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  color: var(--c-izmir);
+
+  @media (--d) {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: left;
+  }
+}
+
+.p {
+  max-width: 450px;
+  color: var(--c-izmir);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  @media (--d) {
+    font-size: 18px;
+    line-height: 27px;
   }
 }

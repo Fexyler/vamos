@@ -1,12 +1,33 @@
 .button {
   cursor: pointer;
-  border-radius: 99px;
-  padding: 6px 10px;
-  display: inline-flex;
+  background: transparent;
+  color: var(--textColor);
+  display: flex;
+  border: 1px solid #439fc0;
   align-items: center;
   justify-content: center;
   transition: var(--fade);
-  border: 1px solid;
-  background: transparent;
-  color: var(--c-text);
+  text-decoration: none;
+  background: linear-gradient(181.02deg, #439fc0 0.73%, #0284cb 99.32%);
+  height: 44px;
+  width: 144px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+
+  &:hover {
+    background: var(--soytariBlue3-20);
+  }
+
+  &:active {
+    background: var(--soytariBlue3-10);
+  }
+
+  .fullWidth {
+    width: 100% !important;
+  }
+}
+
+.iconButton {
+  color: red;
 }

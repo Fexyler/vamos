@@ -1,0 +1,5 @@
+export { default as Motto } from './motto'
+export { default as Nedir } from './nedir/index'
+export { default as Neden } from './neden'
+export { default as Neicin } from './neicin'
+export { default as Projelerimiz } from './projelerimiz'
