@@ -9,7 +9,7 @@ function Projelerimiz() {
   return (
     <article className={styles.container}>
       <div className={styles.text}>
-        <TitleH2 className={styles.title}>Projelerimiz?</TitleH2>
+        <TitleH2 className={styles.title}>Projelerimiz</TitleH2>
         <BodyText className={styles.content}>
           VAMOS!’un yola çıkış hedeflerinin gerçekleştirilmesinde büyük rol
           oynayacak olan Fikir ve Yatırımcılık Ligi’ni üniversite öğrencilerine
