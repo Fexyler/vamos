@@ -9,7 +9,7 @@
   margin-top: 3rem;
 
   @media (--d) {
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
   }
@@ -45,6 +45,7 @@
     & svg {
       display: none;
       @media (--d) {
+        margin-top: 20px;
         display: inline;
       }
     }

@@ -38,8 +38,9 @@ input[type='text'] {
   margin: 8px 0;
   box-sizing: border-box;
   border-radius: 8px;
+  font-size: 16px;
   border: none;
-  background-color: var(--inputBG);
+  /*background-color: var(--inputBG);*/
 
   @media (--t) {
     max-width: 270px;
@@ -48,6 +49,7 @@ input[type='text'] {
   &::placeholder {
     font-family: Poppins;
     font-weight: 400;
+    font-size: 16px;
     color: var(--inputPlc);
   }
   &:read-write {

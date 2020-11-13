@@ -39,7 +39,7 @@ function HomePage() {
 
       <League />
 
-      <div
+      {/*<div
         style={{
           display: 'flex',
           alignItems: 'center',
@@ -50,8 +50,20 @@ function HomePage() {
         }}
       >
         <BodyText>Geliştiriyoruz...</BodyText>
-      </div>
-      {/*<div>
+      </div>*/}
+
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          flexDirection: 'column',
+          width: '100%',
+          height: 'auto',
+          paddingTop: 44,
+          paddingBottom: 44
+        }}
+      >
         Change Theme{' '}
         <Button
           onClick={() =>
@@ -62,7 +74,7 @@ function HomePage() {
         >
           {store.theme === THEME.LIGHT ? 'Dark' : 'Light'}
         </Button>
-      </div>*/}
+      </div>
     </Layout>
   )
 }

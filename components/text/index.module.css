@@ -1,5 +1,5 @@
 .h1 {
-  font-size: 16vw;
+  font-size: 72px;
   font-family: 'Inter';
   line-height: 100%;
   text-align: center;
@@ -7,7 +7,7 @@
   color: var(--c-izmir);
   @media (--d) {
     max-width: 400px;
-    font-size: 10vw;
+    font-size: 96px;
     text-align: left;
     line-height: 116%;
   }
