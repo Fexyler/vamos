@@ -19,7 +19,23 @@ function Form({ twoFacts, className }) {
   }
 
   const handleSubmit = (e) => {
-    alert(JSON.stringify(data))
+    fetch('https://vamosreal.herokuapp.com/api/contact', {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+        'auth-token':
+          'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZWNvbmRTZWNyZXQiOiJhNWM5ZThjMS03ODc3LTQ1ZWItOTk5MC01YmQ4ZjcyZjA3MWUiLCJpYXQiOjE2MDUzNTM0MDJ9.I-3mcjSP3rcVUY4LdfjHpntOZpXc_ZcIWFRN2X1fx7g',
+        'Access-Control-Allow-Origin': 'http://localhost:3000/'
+      },
+      body: {
+        isim: nameValue,
+        email: mailValue,
+        mesaj: messageValue
+      }
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data))
+      .catch((e) => console.log(e))
     e.preventDefault()
   }
 
@@ -87,7 +103,7 @@ function Form({ twoFacts, className }) {
           />
         </div>
         <div className={styles.row}>
-          <Button disabled full type="submit">
+          <Button full type="submit">
             Gönder
           </Button>
         </div>
