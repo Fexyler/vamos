@@ -103,7 +103,7 @@ function Form({ twoFacts, className }) {
           />
         </div>
         <div className={styles.row}>
-          <Button full type="submit">
+          <Button disabled full type="submit">
             Gönder
           </Button>
         </div>

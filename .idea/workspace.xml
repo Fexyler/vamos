@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84497a6f-2d03-4886-80f3-61da486b2216" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/form/form.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +87,7 @@
       <workItem from="1605088679941" duration="44435000" />
       <workItem from="1605350006517" duration="83000" />
       <workItem from="1605350117153" duration="3463000" />
-      <workItem from="1605388366857" duration="18305000" />
+      <workItem from="1605388366857" duration="18399000" />
     </task>
     <task id="LOCAL-00001" summary="svg config">
       <created>1604914925212</created>
