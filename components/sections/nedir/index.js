@@ -11,7 +11,7 @@ function Nedir() {
       <div className={styles.text}>
         <TitleH2 className={styles.title}>Nedir?</TitleH2>
         <BodyText className={styles.content}>
-          VAMOS!, girişimcilik, inovasyon ve yatırımcılık kavramlarının
+          Vamos!; girişimcilik, inovasyon ve yatırımcılık kavramlarının
           üçgeninde konumlanmış , gerçekleştirdiği her etkinlikte değer ve proje
           üretmeyi hedefleyen, vizyonu ve değerleri projeksiyonunda profesyonel
           olarak çalışmalarını yürüten ve her daim genç kalmayı, genç düşünmeyi

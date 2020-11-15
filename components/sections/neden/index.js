@@ -11,7 +11,7 @@ function Neden() {
       <div className={styles.text}>
         <TitleH2 className={styles.title}>Neden?</TitleH2>
         <BodyText className={styles.content}>
-          VAMOS Ekibi olarak biz, girişimcilik ve yatırımcılık kavramlarını
+          Vamos! Ekibi olarak biz, girişimcilik ve yatırımcılık kavramlarını
           gençleştirmeyi ve girişimcilik ekosistemine adım atmak isteyen her bir
           üniversite öğrencisine kanal yaratmayı amaçlıyoruz. Mevcut ekosistem
           ile gençler arasında kurduğumuz köprüde ise yalnızca iki taraf arası

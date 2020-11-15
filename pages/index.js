@@ -15,10 +15,10 @@ import {
 } from '../components/sections'
 import League from '../components/sections/league'
 import { BodyText, TitleH2 } from '../components/text'
+import Form from '../components/form/form'
+import Footer from '../components/footer'
 
 function HomePage() {
-  const store = useContext(StoreContext)
-
   return (
     <Layout>
       <Head>
@@ -39,42 +39,9 @@ function HomePage() {
 
       <League />
 
-      {/*<div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: '100%',
-          height: 'auto',
-          paddingTop: 44
-        }}
-      >
-        <BodyText>Geliştiriyoruz...</BodyText>
-      </div>*/}
+      <Form />
 
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexDirection: 'column',
-          width: '100%',
-          height: 'auto',
-          paddingTop: 44,
-          paddingBottom: 44
-        }}
-      >
-        Change Theme{' '}
-        <Button
-          onClick={() =>
-            store.changeTheme(
-              store.theme === THEME.LIGHT ? THEME.DARK : THEME.LIGHT
-            )
-          }
-        >
-          {store.theme === THEME.LIGHT ? 'Dark' : 'Light'}
-        </Button>
-      </div>
+      {/*    <Footer />*/}
     </Layout>
   )
 }

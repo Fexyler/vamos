@@ -12,7 +12,6 @@ function SocialIcons() {
     <div className={styles.icons}>
       <Linkedin />
       <Instagram />
-      <Twitter />
     </div>
   )
 }

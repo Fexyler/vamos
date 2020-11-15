@@ -22,7 +22,9 @@ function Hero({ title, social, form, description }) {
       <div className={styles.logocuk}>
         <IconLogo className={styles.logo} />
       </div>
-      <Button className={styles.button}>Lige Katıl!</Button>
+      <Button disabled className={styles.button}>
+        Lige Katıl!
+      </Button>
     </div>
   )
 }

@@ -10,7 +10,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,8 +18,9 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
   font-weight: 400;
   line-height: 1.5;
   background-color: var(--c-background);
@@ -31,33 +32,49 @@ img {
   vertical-align: middle;
 }
 
-input[type='text'] {
-  font-family: Poppins;
+form {
+  padding: 20px;
   width: 100%;
-  padding: 15px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border-radius: 8px;
-  font-size: 16px;
-  border: none;
-  /*background-color: var(--inputBG);*/
 
-  @media (--t) {
-    max-width: 270px;
-  }
-
-  &::placeholder {
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--inputPlc);
-  }
-  &:read-write {
-    color: var(--c-izmir);
+  @media (--d) {
+    width: inherit;
   }
 }
 
-form {
-  display: flex;
-  align-items: center;
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  height: 42px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: inherit;
+  font-family: inherit;
+  color: var(--c-text);
+  background-color: var(--inputBG);
+}
+
+input[type='text']::placeholder,
+input[type='tel']::placeholder,
+input[type='email']::placeholder,
+textarea::placeholder {
+  color: var(--inputPlc);
+}
+
+input[type='text']:focus,
+input[type='tel']:focus,
+input[type='email']:focus,
+textarea:focus {
+  background-color: var(--gray);
+}
+
+textarea {
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 144px;
+  resize: none;
+  width: 100%;
 }

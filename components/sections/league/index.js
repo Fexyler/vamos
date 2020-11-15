@@ -14,12 +14,12 @@ function League() {
         <div className={styles.content}>
           <div className={styles.leftText}>
             <BodyText>
-              Her ay 1 start-up fikri, her ay 9 yatırım fırsatı. Girişimcilik ve
-              Yatırımcılık günümüz iş dünyasının ilgisinin en çok yoğunlaştığı
-              bölge. Sayısız Start-Up fikri, milyarlarca dolar yatırım,
-              iflaslar, unicornlar, bir gecede dibi görmek ve bir ay sonra
-              milyoner olmak… Burası hâLâ yeni bir ekosistem, hem acımasız hem
-              talepkar. ise…
+              <b> Her ay 1 start-up fikri, her ay 9 yatırım fırsatı...</b>
+              Girişimcilik ve Yatırımcılık günümüz iş dünyasının ilgisinin en
+              çok yoğunlaştığı bölge. Sayısız Start-Up fikri, milyarlarca dolar
+              yatırım, iflaslar, unicornlar, bir gecede dibi görmek ve bir ay
+              sonra milyoner olmak… Burası hâlâ yeni bir ekosistem, hem acımasız
+              hem talepkar. Karşılığı ise…
             </BodyText>
             <BodyText>
               Dünyanın en büyük firmalarının her biri başarılı olmak için işe
@@ -30,7 +30,7 @@ function League() {
           </div>
           <div className={styles.rightText}>
             <BodyText>
-              VAMOS! Fikir ve Yatırımcılık Ligi sayesinde katılımcılar, 5 ay
+              Vamos! Fikir ve Yatırımcılık Ligi sayesinde katılımcılar, 5 ay
               sonunda tam 50 adet proje fikri üretiyor, her birini belirli bir
               kitleye sunuyor ve ekosistemin profesyonellerine birinci elden
               ulaşma imkanı elde ediyorlar.
@@ -42,10 +42,12 @@ function League() {
               kazanıyor veya kaybediyorlar.
             </BodyText>
             <BodyText>
-              VAMOS! Fikir ve Yatırımcılık Ligi yalnız bir yarışma değil;
-              girişimciliğin, yatırımcılığın ve başarının yolundaki bir fırsat
-              kapısı. Fikirlerin ve dolayısıyla roller coasterın başlama
-              noktası.
+              <b>
+                Vamos! Fikir ve Yatırımcılık Ligi yalnız bir yarışma değil;
+                girişimciliğin, yatırımcılığın ve başarının yolundaki bir fırsat
+                kapısı. Fikirlerin ve dolayısıyla roller coasterın başlama
+                noktası.
+              </b>
             </BodyText>
           </div>
         </div>

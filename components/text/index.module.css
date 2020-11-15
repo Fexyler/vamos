@@ -23,11 +23,18 @@
 
   @media (--d) {
     font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
     font-size: 64px;
     line-height: 77px;
     text-align: left;
+  }
+}
+
+.h3 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: bold;
+  @media (--d) {
+    font-size: 44px;
   }
 }
 

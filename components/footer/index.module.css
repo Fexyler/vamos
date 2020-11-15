@@ -1,0 +1,72 @@
+.footer {
+  display: flex;
+  flex-direction: column-reverse;
+
+  @media (--d) {
+    justify-content: space-around;
+    padding-top: 76px;
+    height: 310px;
+    align-items: start;
+  }
+
+  .respon {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    @media (--d) {
+      display: initial;
+    }
+
+    .responFoot {
+      display: flex;
+      flex-direction: row;
+      @media (--d) {
+        display: initial;
+      }
+    }
+  }
+
+  .brand {
+    flex-grow: 1;
+    padding-left: 90px;
+  }
+
+  .nav {
+    flex-grow: 1;
+    padding-left: 120px;
+  }
+
+  .news {
+    flex-grow: 1;
+    padding-left: 90px;
+
+    .newsform {
+      width: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    & form {
+      padding: 0;
+    }
+  }
+
+  .motto {
+    font-size: 18px;
+    max-width: 80px;
+  }
+
+  .icons {
+    margin-top: 10px;
+  }
+
+  .footernav {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+
+    a {
+      margin-left: 0;
+    }
+  }
+}

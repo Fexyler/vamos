@@ -11,7 +11,7 @@ function Projelerimiz() {
       <div className={styles.text}>
         <TitleH2 className={styles.title}>Projelerimiz</TitleH2>
         <BodyText className={styles.content}>
-          VAMOS!’un yola çıkış hedeflerinin gerçekleştirilmesinde büyük rol
+          Vamos!’ un yola çıkış hedeflerinin gerçekleştirilmesinde büyük rol
           oynayacak olan Fikir ve Yatırımcılık Ligi’ni üniversite öğrencilerine
           sunmak için uzun süredir çalışıyoruz.
         </BodyText>

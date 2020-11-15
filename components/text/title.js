@@ -22,3 +22,13 @@ export const TitleH2 = ({ children, className, ...props }) => {
     </>
   )
 }
+
+export const TitleH3 = ({ children, className, ...props }) => {
+  return (
+    <>
+      <h3 className={cn(styles.h3, className)} {...props}>
+        {children}
+      </h3>
+    </>
+  )
+}
