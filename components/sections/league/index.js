@@ -52,7 +52,9 @@ function League() {
           </div>
         </div>
       </div>
-      <Button primary>Ayrıntılı Bilgi</Button>
+      <Button disabled primary>
+        Ayrıntılı Bilgi
+      </Button>
       <picture className={styles.image}>
         {/*<source
           media="(min-width:465px)"
