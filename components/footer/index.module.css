@@ -1,72 +1,95 @@
-.footer {
+.container {
+  height: inherit;
   display: flex;
-  flex-direction: column-reverse;
-
+  align-items: center;
+  margin-top: 100px;
+  border-top: 2px solid;
+  border-color: var(--gray);
   @media (--d) {
-    justify-content: space-around;
-    padding-top: 76px;
-    height: 310px;
-    align-items: start;
+    height: 300px;
+    border: none;
   }
 
-  .respon {
+  .footer {
     display: flex;
+    flex-direction: column;
+    width: 100%;
     align-items: center;
-    flex-direction: column-reverse;
+    margin-top: 40px;
+    gap: 40px;
+
     @media (--d) {
-      display: initial;
+      gap: 0;
+      flex-direction: row;
+      align-items: start;
+      justify-content: space-between;
     }
 
-    .responFoot {
+    .brand {
       display: flex;
-      flex-direction: row;
+      align-items: center;
+      flex-direction: column;
       @media (--d) {
-        display: initial;
+        align-items: start;
+      }
+
+      .motto {
+        max-width: 80px;
+        font-size: 18px;
+        text-align: center;
+        @media (--d) {
+          text-align: left;
+        }
+      }
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        max-width: 88px;
+        button {
+          margin-top: 10px;
+          svg {
+            color: var(--c-text);
+          }
+          & svg + svg {
+            margin-left: 20px;
+          }
+        }
       }
     }
-  }
 
-  .brand {
-    flex-grow: 1;
-    padding-left: 90px;
-  }
+    .nav {
+      text-align: center;
+      @media (--d) {
+        text-align: left;
+      }
+      .footernav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-  .nav {
-    flex-grow: 1;
-    padding-left: 120px;
-  }
-
-  .news {
-    flex-grow: 1;
-    padding-left: 90px;
-
-    .newsform {
-      width: 200px;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+        @media (--d) {
+          align-items: start;
+        }
+        & a + a {
+          margin-left: 0;
+        }
+      }
+      .themeButton {
+        margin-top: 20px;
+        background: none;
+        border: 2px solid;
+        border-color: var(--soytariBlueSingle);
+        color: var(--c-text);
+      }
     }
-    & form {
-      padding: 0;
-    }
-  }
 
-  .motto {
-    font-size: 18px;
-    max-width: 80px;
-  }
+    .news {
+      form {
+        padding: 0;
+      }
 
-  .icons {
-    margin-top: 10px;
-  }
-
-  .footernav {
-    flex-direction: column;
-    align-items: start;
-    margin-bottom: 20px;
-
-    a {
-      margin-left: 0;
+      margin-bottom: 40px;
     }
   }
 }

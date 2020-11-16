@@ -11,32 +11,30 @@ function Form({ twoFacts, className }) {
   const [mailValue, setMailValue] = useState()
   const [messageValue, setMessageValue] = useState()
 
-  const data = {
-    id: 1,
-    name: nameValue,
-    mail: mailValue,
-    message: messageValue
-  }
+  const paroxy = 'https://cors-anywhere.herokuapp.com/'
 
-  const handleSubmit = (e) => {
-    fetch('https://vamosreal.herokuapp.com/api/contact', {
-      method: 'PATCH',
+  const postData = (url = process.env.API_URL) => {
+    const data = {
+      isim: nameValue,
+      mail: mailValue,
+      mesaj: messageValue
+    }
+    fetch(url, {
+      method: 'POST',
+      mode: 'no-cors',
       headers: {
         'Content-Type': 'application/json',
-        'auth-token':
-          'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZWNvbmRTZWNyZXQiOiJhNWM5ZThjMS03ODc3LTQ1ZWItOTk5MC01YmQ4ZjcyZjA3MWUiLCJpYXQiOjE2MDUzNTM0MDJ9.I-3mcjSP3rcVUY4LdfjHpntOZpXc_ZcIWFRN2X1fx7g',
-        'Access-Control-Allow-Origin': 'http://localhost:3000/'
+        'Access-Control-Allow-Origin': '*',
+        'auth-token': process.env.API_TOKEN
       },
       body: {
-        isim: nameValue,
-        email: mailValue,
-        mesaj: messageValue
+        isim: data.isim,
+        email: data.mail,
+        mesaj: data.mesaj
       }
     })
-      .then((res) => res.json())
-      .then((data) => console.log(data))
-      .catch((e) => console.log(e))
-    e.preventDefault()
+      .then((res) => console.log(res))
+      .catch((err) => console.log(err))
   }
 
   if (twoFacts) {
@@ -46,7 +44,7 @@ function Form({ twoFacts, className }) {
           <div className={styles.row}>
             <Input
               required
-              name={'name'}
+              name={'isim'}
               type={'text'}
               placeholder={'Adınız'}
               onChange={(e) => setNameValue(e.target.value)}
@@ -55,7 +53,7 @@ function Form({ twoFacts, className }) {
           <div className={styles.row}>
             <Input
               required
-              name={'email'}
+              name={'mail'}
               type={'email'}
               placeholder={'E-mail'}
               onChange={(e) => setMailValue(e.target.value)}
@@ -74,12 +72,12 @@ function Form({ twoFacts, className }) {
   return (
     <div className={styles.container}>
       <TitleH3>İletişim</TitleH3>
-      <form onSubmit={handleSubmit}>
+      <form>
         <div className={styles.twoFact}>
           <div className={styles.row}>
             <Input
               required
-              name={'name'}
+              name={'isim'}
               type={'text'}
               placeholder={'Adınız'}
               onChange={(e) => setNameValue(e.target.value)}
@@ -88,7 +86,7 @@ function Form({ twoFacts, className }) {
           <div className={styles.row}>
             <Input
               required
-              name={'email'}
+              name={'mail'}
               type={'email'}
               placeholder={'E-mail'}
               onChange={(e) => setMailValue(e.target.value)}
@@ -97,7 +95,7 @@ function Form({ twoFacts, className }) {
         </div>
         <div className={styles.row}>
           <TextArea
-            name={'message'}
+            name={'mesaj'}
             placeholder={'Mesajınız'}
             onChange={(e) => setMessageValue(e.target.value)}
           />

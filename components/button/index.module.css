@@ -3,17 +3,24 @@
   background: transparent;
   color: var(--textColor);
   display: flex;
-  border: 1px solid #439fc0;
   align-items: center;
   justify-content: center;
-  transition: var(--fade);
   text-decoration: none;
-  background: linear-gradient(181.02deg, #439fc0 0.73%, #0284cb 99.32%);
   height: 44px;
   width: 144px;
+  border: none;
   border-radius: 8px;
   font-size: 18px;
   font-weight: bold;
+}
+.fullWidth {
+  width: 100% !important;
+}
+
+.primary {
+  background: linear-gradient(181.02deg, #439fc0 0.73%, #0284cb 99.32%);
+  border: 1px solid #439fc0;
+  transition: var(--fade);
 
   &:hover {
     background: var(--soytariBlue3-20);
@@ -23,9 +30,6 @@
     background: var(--soytariBlue3-10);
   }
 }
-.fullWidth {
-  width: 100% !important;
-}
 
 .disable {
   pointer-events: none;
@@ -34,5 +38,7 @@
 }
 
 .iconButton {
-  color: red;
+  svg {
+    font-size: 33px;
+  }
 }

@@ -20,13 +20,21 @@ function BaseButton({ children, ...props }) {
   )
 }
 
-function Button({ full = false, children, disabled, className, ...props }) {
+function Button({
+  full = false,
+  children,
+  disabled,
+  primary,
+  className,
+  ...props
+}) {
   const Comp = props.href ? LinkButton : BaseButton
   return (
     <Comp
       className={cn(
         styles.button,
         full && styles.fullWidth,
+        primary && styles.primary,
         disabled && styles.disable,
         className
       )}
