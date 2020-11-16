@@ -5,19 +5,17 @@
   justify-content: space-between;
   padding: 20px 20px;
   border-radius: 8px;
+  position: sticky !important;
+  margin-top: 20px;
+  top: 0;
+  z-index: 1;
 
-  &:hover {
-    box-shadow: var(--s-shadow);
-  }
+  box-shadow: var(--s-shadow);
 
   .logo {
     cursor: pointer;
     height: 33px;
     width: 128px;
-  }
-
-  @media (--d) {
-    box-shadow: none;
   }
 
   .nav {
