@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <Layout>
       <Head>
-        <title>About Page</title>
+        <title>Geliyoruz!</title>
       </Head>
 
       <div className="coming-container">
