@@ -52,7 +52,7 @@ export const DATA = [
     school: 'Boğaziçi Üniversitesi',
     social: {
       linkedin: 'https://www.linkedin.com/in/betuldogdu/',
-      instagram: '?'
+      instagram: ''
     }
   },
   {
