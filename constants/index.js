@@ -79,7 +79,7 @@ export const DATA = [
     id: 7,
     name: 'Ceyda Gözler',
     image: '/people/ceydaGözler.jpeg',
-    school: 'İstanbul Teknik',
+    school: 'İstanbul Teknik Üniversitesi',
     social: {
       linkedin: 'https://www.linkedin.com/in/ceydagozler/',
       instagram: 'https://www.instagram.com/ceydaagozler/?hl=tr'
