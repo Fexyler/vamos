@@ -25,9 +25,11 @@ function Card() {
                 <Linkedin />
               </IconButton>
             )}
-            <IconButton href={data.social.instagram} target="_blank">
-              <Instagram />
-            </IconButton>
+            {data.social.instagram.length > 1 && (
+              <IconButton href={data.social.linkedin} target="_blank">
+                <Instagram />
+              </IconButton>
+            )}
           </div>
         </div>
       ))}

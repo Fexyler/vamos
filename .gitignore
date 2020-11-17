@@ -1,6 +1,6 @@
-.next
 node_modules
-.idea
-public/ui
+/public/ui
 public/sw*
 public/workbox*
+.next
+.idea
