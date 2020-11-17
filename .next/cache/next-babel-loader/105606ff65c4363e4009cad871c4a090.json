@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default as Title } from './title';","map":{"version":3,"sources":["/Users/omeraksu/https/vamos/components/text/index.js"],"names":["default","Title"],"mappings":"AAAA,SAASA,OAAO,IAAIC,KAApB,QAAiC,SAAjC","sourcesContent":["export { default as Title } from './title'\n"]},"metadata":{},"sourceType":"module"}

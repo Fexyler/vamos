@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default as Coming } from './Coming';","map":{"version":3,"sources":["/Users/omeraksu/https/vamos/components/icons/illustration/index.js"],"names":["default","Coming"],"mappings":"AAAA,SAASA,OAAO,IAAIC,MAApB,QAAkC,UAAlC","sourcesContent":["export { default as Coming } from './Coming'"]},"metadata":{},"sourceType":"module"}
