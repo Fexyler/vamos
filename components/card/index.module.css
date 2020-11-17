@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 40px;
+  justify-items: center;
+
+  @media (--d) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 40px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 445px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: var(--c-izmir);
+
+    .name {
+      font-size: 24px;
+    }
+    img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 999px;
+      box-shadow: var(--s-shadow);
+    }
+    .social {
+      display: flex;
+      align-items: center;
+      a {
+        width: 60px;
+
+        svg {
+          color: var(--c-text);
+        }
+      }
+    }
+  }
+}

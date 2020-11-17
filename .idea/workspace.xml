@@ -20,18 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84497a6f-2d03-4886-80f3-61da486b2216" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/destek/GencBasariLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/destek/GencBasariLogoBeyaz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/Rectangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/teams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/people/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/people/man.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/people/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/people/women.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/desteks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/desteks/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/desteks/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/desteks/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/card/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/card/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/card/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/android-chrome-384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/android-chrome-384x384.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-512x512.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +110,7 @@
       <workItem from="1605388366857" duration="18505000" />
       <workItem from="1605471420535" duration="5454000" />
       <workItem from="1605540726999" duration="99000" />
-      <workItem from="1605540874721" duration="16711000" />
+      <workItem from="1605540874721" duration="19333000" />
     </task>
     <task id="LOCAL-00001" summary="svg config">
       <created>1604914925212</created>
