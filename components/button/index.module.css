@@ -38,7 +38,12 @@
 }
 
 .iconButton {
+  width: 60px;
   svg {
     font-size: 33px;
+    color: var(--c-text);
+  }
+  & svg + svg {
+    margin-left: 20px;
   }
 }

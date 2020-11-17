@@ -25,10 +25,16 @@ function Footer({ mobile }) {
           </IconButton>
           <TitleH3 className={styles.motto}>Genç. Süper. Üretken.</TitleH3>
           <div className={styles.social}>
-            <IconButton>
+            <IconButton
+              href="https://www.linkedin.com/company/vamostr/?viewAsMember=true"
+              target="_blank"
+            >
               <Linkedin />
             </IconButton>
-            <IconButton>
+            <IconButton
+              href="https://www.instagram.com/vamos.tr/?hl=tr"
+              target="_blank"
+            >
               <Instagram />
             </IconButton>
           </div>

@@ -18,12 +18,18 @@ function Hero({ title, social, form, description }) {
       <div className={styles.descript}>
         <TitleH1>Genç. Süper. Üretken.</TitleH1>
         <div className={styles.social}>
-          <Button href="">
+          <IconButton
+            href="https://www.linkedin.com/company/vamostr/?viewAsMember=true"
+            target="_blank"
+          >
             <Linkedin />
-          </Button>
-          <Button href="">
+          </IconButton>
+          <IconButton
+            href="https://www.instagram.com/vamos.tr/?hl=tr"
+            target="_blank"
+          >
             <Instagram />
-          </Button>
+          </IconButton>
         </div>
       </div>
       <div className={styles.logocuk}>

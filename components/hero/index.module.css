@@ -56,13 +56,6 @@
 
     .social {
       display: flex;
-      button {
-        align-items: center;
-        width: 60px;
-        svg {
-          font-size: 33px;
-        }
-      }
     }
   }
 }
