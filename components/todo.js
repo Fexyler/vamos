@@ -2,6 +2,7 @@
 /*TODO: menü açılması*/
 /*TODO: Form için formik kullanılsın*/
 /*TODO: Linkedin ve insta linkleri*/
+/*TODO: 404*/
 
 /*DONE!*/
 /*TODO: Coming sayfası yapılacak*/
