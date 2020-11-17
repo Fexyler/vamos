@@ -69,7 +69,7 @@ export const DATA = [
     id: 6,
     name: 'Cankat Deveci',
     image: '/people/cankatDeveci.jpeg',
-    school: 'Ortadoğu Teknik Üniversitesi',
+    school: 'Orta Doğu Teknik Üniversitesi',
     social: {
       linkedin: 'https://www.linkedin.com/in/cankat-deveci-ab38b21b4/',
       instagram: 'https://www.instagram.com/cankatdeveci/?hl=tr'
@@ -209,7 +209,7 @@ export const DATA = [
     id: 20,
     name: 'Ayşe Şevval Demir',
     image: '/people/şevvalDemir.jpeg',
-    school: 'Ortadoğu Teknik Üniversitesi',
+    school: 'Orta Doğu Teknik Üniversitesi',
     social: {
       linkedin: 'https://www.linkedin.com/in/ayşe-şevval-demir-a4b805194/',
       instagram: 'https://www.instagram.com/aysevvalx/?hl=tr'
