@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid'
+
 export const THEME = {
   LIGHT: 'theme-light',
   DARK: 'theme-dark'
@@ -15,12 +17,12 @@ export const PAGES = {
 }
 
 const ID = function () {
-  return '_' + Math.random().toString(36).substr(2, 9)
+  return Math.random().toString(36).substr(2, 9)
 }
 
 export const DATA = [
   {
-    id: ID,
+    id: 1,
     name: 'Batuhan İşildak',
     image: '/people/batuhanİşildak.jpeg',
     school: 'Sabancı Üniversitesi',
@@ -30,7 +32,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 2,
     name: 'Begüm Asal',
     image: '/people/begümAsal.jpeg',
     school: 'Bahçeşehir Üniversitesi',
@@ -40,7 +42,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 3,
     name: 'Beril Şentürk',
     image: '/people/berilŞentürk.jpeg',
     school: 'Marmara Üniversitesi',
@@ -50,7 +52,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 4,
     name: 'Betül Doğdu',
     image: '/people/women.svg',
     school: 'Boğaziçi Üniversitesi',
@@ -60,7 +62,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 5,
     name: 'Berkay Kepekçi',
     image: '/people/berkayKepekçi.jpeg',
     school: 'Boğaziçi Üniversitesi',
@@ -70,7 +72,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 6,
     name: 'Cankat Deveci',
     image: '/people/cankatDeveci.jpeg',
     school: 'Ortadoğu Teknik Üniversitesi',
@@ -80,7 +82,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 7,
     name: 'Ceyda Gözler',
     image: '/people/ceydaGözler.jpeg',
     school: 'İstanbul Teknik',
@@ -90,7 +92,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 8,
     name: 'Deniz Taşkın',
     image: '/people/denizTaşkın.jpeg',
     school: 'Boğaziçi Üniversitesi',
@@ -100,7 +102,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 9,
     name: 'Elif Tercan',
     image: '/people/elifTercan.jpeg',
     school: 'Boğaziçi Üniversitesi',
@@ -110,7 +112,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 10,
     name: 'Fatih Kerem Doğan',
     image: '/people/fatihKeremDoğan.jpeg',
     school: 'İstanbul Teknik Üniversitesi',
@@ -120,7 +122,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 11,
     name: 'İdil Çakmut',
     image: '/people/idilÇakmut.jpeg',
     school: 'Boğaziçi Üniversitesi',
@@ -130,7 +132,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 12,
     name: 'İnci Keçeci',
     image: '/people/inciKeçeci.jpeg',
     school: 'İstanbul Kültür Üniversitesi',
@@ -140,7 +142,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 13,
     name: 'İzem Selena Dağhan',
     image: '/people/izemSelenaDağhan.jpeg',
     school: 'Boğaziçi Üniversitesi',
@@ -150,7 +152,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 14,
     name: 'Kaan Arda Kirezli',
     image: '/people/kaanArdaKirezli.jpeg',
     school: 'Galatasaray Üniversitesi',
@@ -160,7 +162,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 15,
     name: 'Pınar Özpolat',
     image: '/people/pınarÖzpolat.jpeg',
     school: 'Galatasaray Üniversitesi',
@@ -170,7 +172,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 16,
     name: 'Rabia Hilal Alincak',
     image: '/people/rabiaHilalAlincak.jpeg',
     school: 'İstanbul Teknik Üniversitesi',
@@ -180,7 +182,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 17,
     name: 'Recep Yılancıoğlu',
     image: '/people/Recep.png',
     school: 'Bahçeşehir Üniversitesi',
@@ -190,7 +192,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 18,
     name: 'Selin Özgören',
     image: '/people/selinÖzgören.jpeg',
     school: 'Ankara Üniversitesi',
@@ -200,7 +202,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 19,
     name: 'Sude Balkan',
     image: '/people/sudeBalkan.jpeg',
     school: 'Türk Alman Üniversitesi',
@@ -210,7 +212,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 20,
     name: 'Ayşe Şevval Demir',
     image: '/people/şevvalDemir.jpeg',
     school: 'Ortadoğu Teknik Üniversitesi',
@@ -220,7 +222,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 21,
     name: 'Tarık Amasyalıoğlu',
     image: '/people/tarıkAmasyalıoğlu.jpeg',
     school: 'İstanbul Teknik Üniversitesi',
@@ -230,7 +232,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 22,
     name: 'Tuğrul Salih',
     image: '/people/tuğrulSalih.jpeg',
     school: 'Boğaziçi Üniversitesi',
@@ -240,7 +242,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 23,
     name: 'Yağmur İri',
     image: '/people/yağmurİri.jpeg',
     school: 'Bilkent Üniversitesi',
@@ -250,7 +252,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 24,
     name: 'Yiğit Balcıoğlu',
     image: '/people/yiğitBalcıoğlu.jpeg',
     school: 'Türk Alman Üniversitesi',
@@ -260,7 +262,7 @@ export const DATA = [
     }
   },
   {
-    id: ID,
+    id: 25,
     name: 'Zehra Gölge',
     image: '/people/zehraGölge.jpeg',
     school: 'Türk Alman Üniversitesi',
