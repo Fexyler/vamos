@@ -52,7 +52,7 @@ function League() {
           </div>
         </div>
       </div>
-      <Button disabled primary>
+      <Button href="/coming" primary>
         Ayrıntılı Bilgi
       </Button>
       <picture className={styles.image}>
