@@ -162,7 +162,7 @@ export const DATA = [
     school: 'Galatasaray Üniversitesi',
     social: {
       linkedin: 'https://www.linkedin.com/in/pınar-özpolat-16589a172/',
-      instagram: 'https://www.instagram.com/izemss/?hl=tr'
+      instagram: 'https://www.instagram.com/pinarozpolaat/?hl=tr'
     }
   },
   {
