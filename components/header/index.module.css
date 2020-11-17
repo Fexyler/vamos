@@ -18,6 +18,7 @@
     cursor: pointer;
     height: 33px;
     width: 128px;
+    color: var(--c-text);
   }
 
   .nav {

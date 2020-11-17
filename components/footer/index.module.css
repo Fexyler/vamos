@@ -33,6 +33,12 @@
         align-items: start;
       }
 
+      .logo {
+        svg {
+          color: var(--c-text);
+        }
+      }
+
       .motto {
         max-width: 80px;
         font-size: 18px;

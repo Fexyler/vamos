@@ -5,13 +5,14 @@ import styles from './index.module.css'
 import { HamburgerIcon, LogoFont } from '../icons'
 import Button from '../button'
 import Box from '../box'
+import IconButton from '../button/icon'
 
 function Header() {
   return (
     <header className={styles.header}>
-      <div>
+      <IconButton href="/">
         <LogoFont className={styles.logo} />
-      </div>
+      </IconButton>
       <Nav className={styles.nav} />
       <HamburgerIcon className={styles.hamburger} style={{ fontSize: 24 }} />
       <Button disabled primary className={styles.button}>
