@@ -15,6 +15,7 @@ import IconButton from '../button/icon'
 
 function Footer({ mobile }) {
   const store = useContext(StoreContext)
+
   return (
     <footer className={styles.container}>
       <div className={styles.footer}>

@@ -14,6 +14,7 @@ import {
 import League from '../components/sections/league'
 import Form from '../components/form/form'
 import Footer from '../components/footer'
+import Desteks from '../components/sections/desteks'
 
 function HomePage() {
   return (
@@ -28,6 +29,7 @@ function HomePage() {
       <Neicin />
       <Projelerimiz />
       <League />
+      <Desteks />
       <Form />
       <Footer />
     </Layout>
