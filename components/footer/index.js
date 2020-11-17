@@ -20,9 +20,9 @@ function Footer({ mobile }) {
     <footer className={styles.container}>
       <div className={styles.footer}>
         <div className={styles.brand}>
-          <IconButton href="/" className={styles.logo}>
+          <Button href="/" className={styles.logo}>
             <Logo width={144} height={44} />
-          </IconButton>
+          </Button>
           <TitleH3 className={styles.motto}>Genç. Süper. Üretken.</TitleH3>
           <div className={styles.social}>
             <IconButton
