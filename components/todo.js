@@ -2,6 +2,7 @@
 /*TODO: menü açılması*/
 /*TODO: Coming sayfası yapılacak*/
 /*TODO: Form için formik kullanılsın*/
+/*TODO: Linkedin ve insta linkleri*/
 
 /*DONE!*/
 /*TODO: Ekip kartı için default image*/

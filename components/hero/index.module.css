@@ -46,13 +46,23 @@
     & svg {
       display: none;
       @media (--d) {
-        margin-top: 20px;
         display: inline;
       }
     }
 
     & div {
       margin-left: 5px;
+    }
+
+    .social {
+      display: flex;
+      button {
+        align-items: center;
+        width: 60px;
+        svg {
+          font-size: 33px;
+        }
+      }
     }
   }
 }

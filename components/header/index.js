@@ -15,7 +15,7 @@ function Header() {
       </IconButton>
       <Nav className={styles.nav} />
       <HamburgerIcon className={styles.hamburger} style={{ fontSize: 24 }} />
-      <Button disabled primary className={styles.button}>
+      <Button href="/coming" primary className={styles.button}>
         Lige Katıl!
       </Button>
     </header>
