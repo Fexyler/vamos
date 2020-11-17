@@ -1,5 +1,3 @@
-import { v4 as uuidv4 } from 'uuid'
-
 export const THEME = {
   LIGHT: 'theme-light',
   DARK: 'theme-dark'
@@ -11,13 +9,9 @@ export const PAGES = {
     name: 'Yatırımcılık Ligi'
   },
   teams: {
-    path: '/teams',
+    path: '/team',
     name: 'Ekibimiz'
   }
-}
-
-const ID = function () {
-  return Math.random().toString(36).substr(2, 9)
 }
 
 export const DATA = [

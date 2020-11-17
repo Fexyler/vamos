@@ -3,11 +3,12 @@
 /*TODO: Form için formik kullanılsın*/
 /*TODO: Linkedin ve insta linkleri*/
 /*TODO: 404*/
+/*TODO: Button font-family Inter*/
 
 /*DONE!*/
 /*TODO: Coming sayfası yapılacak*/
 /*TODO: Ekip kartı için default image*/
-/*TODO: Teams sayfası yapılacak*/
+/*TODO: Team sayfası yapılacak*/
 /*TODO: favicon eklenecek*/
 /*TODO: Destekçilerimiz kısmı*/
 /*TODO: Footer için tasarımsal değişiklik*/

@@ -7,11 +7,11 @@ import Card from '../components/card'
 import { TitleH3 } from '../components/text/title'
 import { TitleH1, TitleH2 } from '../components/text'
 
-function Teams() {
+function Team() {
   return (
     <Layout>
       <Head>
-        <title></title>
+        <title>Team</title>
       </Head>
       <TitleH2
         style={{ textAlign: 'center', paddingBottom: 100, paddingTop: 100 }}
@@ -24,4 +24,4 @@ function Teams() {
   )
 }
 
-export default Teams
+export default Team
