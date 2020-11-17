@@ -10,9 +10,9 @@ import IconButton from '../button/icon'
 function Header() {
   return (
     <header className={styles.header}>
-      <IconButton href="/">
+      <Button href="/">
         <LogoFont className={styles.logo} />
-      </IconButton>
+      </Button>
       <Nav className={styles.nav} />
       <HamburgerIcon className={styles.hamburger} style={{ fontSize: 24 }} />
       <Button href="/coming" primary className={styles.button}>

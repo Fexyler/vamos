@@ -21,7 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="84497a6f-2d03-4886-80f3-61da486b2216" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/card/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/index.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +97,7 @@
       <workItem from="1605388366857" duration="18505000" />
       <workItem from="1605471420535" duration="5454000" />
       <workItem from="1605540726999" duration="99000" />
-      <workItem from="1605540874721" duration="25677000" />
+      <workItem from="1605540874721" duration="26036000" />
     </task>
     <task id="LOCAL-00001" summary="svg config">
       <created>1604914925212</created>

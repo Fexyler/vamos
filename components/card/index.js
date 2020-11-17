@@ -3,12 +3,10 @@ import React from 'react'
 import styles from './index.module.css'
 
 import { DATA } from '../../constants/index'
-import SocialIcons from '../socialicons'
 import IconButton from '../button/icon'
-import { Icon, Linkedin } from '../icons'
+import { Linkedin } from '../icons'
 import Instagram from '../icons/Instagram'
 import { TitleH3 } from '../text/title'
-import { Paragraph } from '../../stories/5.Text.stories'
 import { BodyText } from '../text'
 
 function Card() {
