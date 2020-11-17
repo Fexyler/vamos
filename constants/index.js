@@ -161,7 +161,7 @@ export const DATA = [
     image: '/people/pınarÖzpolat.jpeg',
     school: 'Galatasaray Üniversitesi',
     social: {
-      linkedin: 'https://www.linkedin.com/in/izemselenadaghan/',
+      linkedin: 'https://www.linkedin.com/in/pınar-özpolat-16589a172/',
       instagram: 'https://www.instagram.com/izemss/?hl=tr'
     }
   },

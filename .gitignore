@@ -4,4 +4,3 @@ node_modules
 public/ui
 public/sw*
 public/workbox*
-.next

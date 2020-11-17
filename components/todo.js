@@ -4,6 +4,7 @@
 /*TODO: Linkedin ve insta linkleri*/
 /*TODO: 404*/
 /*TODO: Button font-family Inter*/
+/*TODO: Hero section social theme mode not working color change */
 
 /*DONE!*/
 /*TODO: Coming sayfası yapılacak*/
