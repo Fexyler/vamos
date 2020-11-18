@@ -5,6 +5,8 @@
 /*TODO: 404*/
 /*TODO: Button font-family Inter*/
 /*TODO: Hero section social theme mode not working color change */
+/*TODO: Button font familiy Inter*/
+/*TODO: Footer logo bottom text align in center*/
 
 /*DONE!*/
 /*TODO: Coming sayfası yapılacak*/
