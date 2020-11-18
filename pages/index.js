@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Head from 'next/head'
 import StoreContext from '../store'
 
@@ -17,16 +17,20 @@ import Footer from '../components/footer'
 import Desteks from '../components/sections/desteks'
 
 function HomePage() {
+  const handleScroll = (e) => {
+    const el = e.target
+    console.log(el)
+  }
   return (
     <Layout>
       <Head>
         <title>Vamos!</title>
       </Head>
-      <Hero />
+      <Hero onScroll={handleScroll} />
       <Motto />
       <Nedir />
       <Neden />
-      <Neicin />
+      <Neicin id="what" />
       <Projelerimiz />
       <League />
       <Desteks />

@@ -12,9 +12,9 @@ import IconButton from '../button/icon'
 /*className={styles.title}*/
 /*className={styles.hero}*/
 
-function Hero({ title, social, form, description }) {
+function Hero({ ...props }) {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} {...props}>
       <div className={styles.descript}>
         <TitleH1>Genç. Süper. Üretken.</TitleH1>
         <div className={styles.social}>

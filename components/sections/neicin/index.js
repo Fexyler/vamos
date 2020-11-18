@@ -4,10 +4,10 @@ import styles from './index.module.css'
 import { BodyText, TitleH2 } from '../../text'
 import useWindowSize from '../../../hooks'
 
-function Neicin() {
+function Neicin({ ...props }) {
   const size = useWindowSize()
   return (
-    <article className={styles.container}>
+    <article className={styles.container} {...props}>
       <div className={styles.text}>
         <TitleH2 className={styles.title}>Ne için?</TitleH2>
         <BodyText className={styles.content}>

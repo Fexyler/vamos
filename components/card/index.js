@@ -9,9 +9,9 @@ import Instagram from '../icons/Instagram'
 import { TitleH3 } from '../text/title'
 import { BodyText } from '../text'
 
-function Card() {
+function Card({ ...props }) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} {...props}>
       {DATA.map((data) => (
         <div key={data.id} className={styles.card}>
           <img src={data.image} />

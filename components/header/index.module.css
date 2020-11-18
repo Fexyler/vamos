@@ -8,7 +8,6 @@
   position: sticky !important;
   top: 0;
   z-index: 1;
-  box-shadow: var(--s-shadow);
 
   @media (--d) {
     margin-top: 20px;
@@ -49,4 +48,12 @@
       justify-content: center;
     }
   }
+}
+
+.actives {
+  box-shadow: var(--s-shadow);
+}
+
+.disabled {
+  box-shadow: none;
 }
