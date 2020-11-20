@@ -23,8 +23,8 @@
       font-size: 24px;
     }
     img {
-      width: 250px;
       height: 250px;
+      width: 250px;
       object-fit: cover;
       border-radius: 999px;
       box-shadow: var(--s-shadow);

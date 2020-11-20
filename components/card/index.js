@@ -14,7 +14,7 @@ function Card({ ...props }) {
     <div className={styles.container} {...props}>
       {DATA.map((data) => (
         <div key={data.id} className={styles.card}>
-          <img src={data.image} />
+          <img src={data.image} alt={data.name} />
           <TitleH3 className={styles.name}>{data.name}</TitleH3>
           <BodyText>{data.school}</BodyText>
           <div className={styles.social}>
