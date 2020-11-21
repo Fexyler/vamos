@@ -5,7 +5,7 @@ export const THEME = {
 
 export const PAGES = {
   league: {
-    path: '/coming',
+    path: '/league',
     name: 'Yatırımcılık Ligi'
   },
   teams: {

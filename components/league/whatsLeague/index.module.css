@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+
+  @media (--d) {
+    flex-direction: row;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    @media (--d) {
+      text-align: left;
+      width: 488px;
+      height: 434px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+  .image {
+    @media (--d) {
+      width: auto;
+      height: 500px;
+    }
+  }
+}

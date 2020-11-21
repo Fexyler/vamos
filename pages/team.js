@@ -17,7 +17,6 @@ function Team() {
         Bizim Takım!
       </TitleH2>
       <Card />
-      <Footer />
     </Layout>
   )
 }

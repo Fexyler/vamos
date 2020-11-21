@@ -1,0 +1,36 @@
+.container {
+  max-width: 855px;
+  height: 624px;
+  position: relative;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (--d) {
+    margin-top: 40px;
+  }
+
+  .title {
+    visibility: hidden;
+    display: none;
+  }
+
+  .image {
+    position: absolute;
+    top: -10px;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    position: absolute;
+    bottom: 60px;
+    @media (--d) {
+      bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 200px;
+  align-items: center;
+
+  .title {
+    @media (--d) {
+      width: 700px;
+    }
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 20px;
+
+    @media (--d) {
+      margin-top: 0;
+      flex-direction: row-reverse;
+      text-align: left;
+    }
+  }
+}

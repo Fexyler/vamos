@@ -24,7 +24,6 @@ function HomePage() {
           <Coming className="hero-coming" />
         </div>
       </div>
-      <Footer />
     </Layout>
   )
 }

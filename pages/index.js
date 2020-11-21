@@ -35,7 +35,6 @@ function HomePage() {
       <League />
       <Desteks />
       <Form />
-      <Footer />
     </Layout>
   )
 }

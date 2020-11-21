@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+
+  @media (--d) {
+    text-align: left;
+    flex-direction: row;
+  }
+  .image {
+    margin-top: 30px;
+    @media (--d) {
+      margin-top: 0;
+    }
+  }
+}
