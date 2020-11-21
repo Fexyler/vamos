@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { BodyText, TitleH2 } from '../../text'
 import styles from './index.module.css'
 import { TitleH3 } from '../../text/title'
+import StoreContext from '../../../store'
+import { THEME } from '../../../constants'
 
 function WhatsLeague() {
+  const store = useContext(StoreContext)
   return (
     <div className={styles.container}>
       <div className={styles.title}>
@@ -20,9 +23,13 @@ function WhatsLeague() {
       </div>
       <div className={styles.image}>
         <picture>
-          <source media="(min-width:465px)" srcSet="/svg/leagueJourney.svg" />
+          {/*<source media="(min-width:465px)" srcSet="/svg/leagueJourney.svg" />*/}
           <img
-            src="/svg/leagueJorneyMobile.svg"
+            src={
+              store.theme === THEME.LIGHT
+                ? '/svg/leagueJourney.svg'
+                : '/svg/leagueJourneyDark.svg'
+            }
             style={{
               width: 'auto',
               height: '100%'
