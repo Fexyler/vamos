@@ -4,6 +4,7 @@
   flex-direction: column;
   margin-top: 244px;
   margin-bottom: 144px;
+
   @media (--d) {
     margin: 244px auto;
     width: 1140px;

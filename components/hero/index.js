@@ -35,7 +35,12 @@ function Hero({ ...props }) {
       <div className={styles.logocuk}>
         <IconLogo className={styles.logo} />
       </div>
-      <Button href="/coming" primary className={styles.button}>
+      <Button
+        href="/https://vamostr.typeform.com/to/kJxGUSPo"
+        target="_blank"
+        primary
+        className={styles.button}
+      >
         Lige Katıl!
       </Button>
     </div>
