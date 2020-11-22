@@ -29,6 +29,7 @@
   .button {
     position: absolute;
     bottom: 60px;
+    font-family: Inter;
     @media (--d) {
       bottom: 0;
     }

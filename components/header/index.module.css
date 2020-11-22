@@ -23,9 +23,9 @@
   }
 
   .nav {
-    display: none;
-
+    font-size: 16px;
     @media (--d) {
+      font-size: 1rem;
       display: flex;
     }
   }
@@ -46,8 +46,56 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      font-family: Inter;
     }
   }
+}
+
+.mobilMenu {
+  width: 270px;
+  background-color: var(--c-background);
+  height: 100vh;
+
+  position: sticky;
+  z-index: 111;
+  top: 0;
+  margin-left: auto;
+  padding: 10px;
+
+  @media (--d) {
+    display: none;
+  }
+
+  .content {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .mobileNav {
+      flex-direction: column;
+    }
+    a {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    a + a {
+      margin-left: 0;
+    }
+
+    .button {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+.menuActive {
+}
+.menuPasif {
+  display: none;
 }
 
 .actives {

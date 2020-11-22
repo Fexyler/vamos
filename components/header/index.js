@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import cn from 'classnames'
 
-import { HamburgerIcon, LogoFont } from '../icons'
+import { LogoFont } from '../icons'
 import Button from '../button'
 import Nav from '../nav'
 
@@ -32,8 +32,12 @@ function Header() {
         <LogoFont className={styles.logo} />
       </Button>
       <Nav className={styles.nav} />
-      <HamburgerIcon className={styles.hamburger} style={{ fontSize: 24 }} />
-      <Button href="/coming" primary className={styles.button}>
+      <Button
+        href="https://vamostr.typeform.com/to/kJxGUSPo"
+        target="_blank"
+        primary
+        className={styles.button}
+      >
         Lige Katıl!
       </Button>
     </header>

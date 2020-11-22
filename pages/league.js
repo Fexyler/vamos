@@ -10,6 +10,7 @@ import Champ from '../components/league/champ'
 import WhtInvLeague from '../components/league/whatsInvestLeague'
 import Orientation from '../components/league/oriantation'
 import Kazanims from '../components/league/kazanim'
+import Button from '../components/button'
 
 function League() {
   return (
@@ -26,6 +27,23 @@ function League() {
       <WhtInvLeague />
       <Orientation />
       <Kazanims />
+      <Button
+        style={{
+          height: 170,
+          width: 170,
+          borderRadius: 999,
+          fontSize: 28,
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          marginTop: 140,
+          fontFamily: 'Inter'
+        }}
+        primary
+        href="https://vamostr.typeform.com/to/kJxGUSPo"
+        target="_blank"
+      >
+        Lige Katıl!
+      </Button>
     </Layout>
   )
 }

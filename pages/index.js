@@ -17,16 +17,12 @@ import Footer from '../components/footer'
 import Desteks from '../components/sections/desteks'
 
 function HomePage() {
-  const handleScroll = (e) => {
-    const el = e.target
-    console.log(el)
-  }
   return (
     <Layout>
       <Head>
         <title>Vamos!</title>
       </Head>
-      <Hero onScroll={handleScroll} />
+      <Hero />
       <Motto />
       <Nedir />
       <Neden />

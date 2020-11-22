@@ -35,7 +35,12 @@ function LeagueHero() {
           }}
         />
       </picture>
-      <Button className={styles.button} primary>
+      <Button
+        href="https://vamostr.typeform.com/to/kJxGUSPo"
+        target="_blank"
+        className={styles.button}
+        primary
+      >
         Katıl!
       </Button>
     </div>

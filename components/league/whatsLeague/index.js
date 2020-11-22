@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { BodyText, TitleH2 } from '../../text'
+import { BodyText } from '../../text'
 import styles from './index.module.css'
 import { TitleH3 } from '../../text/title'
 import StoreContext from '../../../store'
@@ -21,9 +21,9 @@ function WhatsLeague() {
           iki proje finale gitmeye hak kazanır. 4. ay Final Ayı oynanır:
         </BodyText>
       </div>
+
       <div className={styles.image}>
         <picture>
-          {/*<source media="(min-width:465px)" srcSet="/svg/leagueJourney.svg" />*/}
           <img
             src={
               store.theme === THEME.LIGHT
