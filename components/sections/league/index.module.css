@@ -48,6 +48,7 @@
   .image {
     position: relative;
     top: -70px;
+    z-index: -1;
 
     @media (--d) {
       position: absolute;
