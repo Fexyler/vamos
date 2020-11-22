@@ -36,7 +36,7 @@ function Hero({ ...props }) {
         <IconLogo className={styles.logo} />
       </div>
       <Button
-        href="/https://vamostr.typeform.com/to/kJxGUSPo"
+        href="https://vamostr.typeform.com/to/kJxGUSPo"
         target="_blank"
         primary
         className={styles.button}
