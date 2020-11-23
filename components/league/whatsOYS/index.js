@@ -21,7 +21,7 @@ function WhatsOYS() {
           Birinci olan projenin sembolik piyasa değeri (1000 TL)nin % 51’i fikir
           sahibi takımın olup kalan %49 o projeye oy veren ‘yatırımcı’lar
           tarafından paylaşılacaktır. İkinci olan projenin herhangi bir sembolik
-          piyasa değeri yoktur, yalnızca finale çıkma hakkı kazanır.
+          piyasa değeri yoktur, yalnızca finale çıkma hakkı vardır.
         </BodyText>
         <div>
           <picture>
