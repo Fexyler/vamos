@@ -1,16 +1,11 @@
 import React from 'react'
 
-import cn from 'classnames'
+import Button from '../button'
+import { TitleH1 } from '../text'
+import IconButton from '../button/icon'
+import { IconLogo, Instagram, Linkedin } from '../icons'
 
 import styles from './index.module.css'
-import { Title, TitleH1 } from '../text'
-import SocialIcons from '../socialicons'
-import { IconLogo, Instagram, Linkedin } from '../icons'
-import Button from '../button'
-import IconButton from '../button/icon'
-
-/*className={styles.title}*/
-/*className={styles.hero}*/
 
 function Hero({ ...props }) {
   return (

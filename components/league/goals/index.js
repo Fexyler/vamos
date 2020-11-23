@@ -17,8 +17,8 @@ function Goals() {
         Vamos! Fikir ve Yatırımcılık Ligi;
         <br />
         <br />
-        Günümüzün önemli sorunlara inovatif çözümler getirmek adına “bilişime ve
-        teknolojiye” temas eden girişimcilik fikirlerini ortaya çıkarmayı,
+        Günümüzün önemli sorunlarına inovatif çözümler getirmek adına “bilişime
+        ve teknolojiye” temas eden girişimcilik fikirlerini ortaya çıkarmayı,
         <br />
         <br />
         İnovasyon, girişimcilik ve yatırımcılık kavramlarına hakim, sürekli
