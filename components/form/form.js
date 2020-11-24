@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Button from '../button'
 
 import styles from './index.module.css'
+import { useForm } from 'react-hook-form'
 
 import { TitleH3 } from '../text/title'
 import { Input, TextArea } from './input'
@@ -10,28 +11,25 @@ function Form({ twoFacts, className }) {
   const [nameValue, setNameValue] = useState()
   const [mailValue, setMailValue] = useState()
   const [messageValue, setMessageValue] = useState()
+  const { handleSubmit } = useForm()
 
-  const paroxy = 'https://cors-anywhere.herokuapp.com/'
+  // const paroxy = 'https://cors-anywhere.herokuapp.com/'
 
-  const postData = (url = process.env.API_URL) => {
-    const data = {
-      isim: nameValue,
-      mail: mailValue,
-      mesaj: messageValue
+  const onSubmit = async (data, e) => {
+    const contactData = {
+      isim: e.target.isim.value,
+      mail: e.target.mail.value,
+      mesaj: e.target.mesaj.value
     }
-    fetch(url, {
+    console.log(contactData)
+    await fetch('https://vamosreal.herokuapp.com/api/contact', {
       method: 'POST',
-      mode: 'no-cors',
       headers: {
         'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
-        'auth-token': process.env.API_TOKEN
+        'auth-token':
+          'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZWNvbmRTZWNyZXQiOiJhNWM5ZThjMS03ODc3LTQ1ZWItOTk5MC01YmQ4ZjcyZjA3MWUiLCJpYXQiOjE2MDYyMTY4NTl9.HxQocGHAm7hCOUNzjimj2Z7t5YWbC3arB9g74UCwogM'
       },
-      body: {
-        isim: data.isim,
-        email: data.mail,
-        mesaj: data.mesaj
-      }
+      body: JSON.stringify(contactData)
     })
       .then((res) => console.log(res))
       .catch((err) => console.log(err))
@@ -39,12 +37,12 @@ function Form({ twoFacts, className }) {
 
   if (twoFacts) {
     return (
-      <form action="">
+      <form noValidate autoComplete="off" onSubmit={handleSubmit(onSubmit)}>
         <div className={styles.twoinput}>
           <div className={styles.row}>
             <Input
               required
-              name={'isim'}
+              name="isim"
               type={'text'}
               placeholder={'Adınız'}
               onChange={(e) => setNameValue(e.target.value)}
@@ -53,7 +51,7 @@ function Form({ twoFacts, className }) {
           <div className={styles.row}>
             <Input
               required
-              name={'mail'}
+              name="mail"
               type={'email'}
               placeholder={'E-mail'}
               onChange={(e) => setMailValue(e.target.value)}
@@ -61,9 +59,7 @@ function Form({ twoFacts, className }) {
           </div>
         </div>
         <div className={styles.row}>
-          <Button disabled type="submit">
-            Gönder
-          </Button>
+          <Button type="submit">Gönder</Button>
         </div>
       </form>
     )
@@ -72,12 +68,12 @@ function Form({ twoFacts, className }) {
   return (
     <div className={styles.container}>
       <TitleH3>İletişim</TitleH3>
-      <form>
+      <form noValidate autoComplete="off" onSubmit={handleSubmit(onSubmit)}>
         <div className={styles.twoFact}>
           <div className={styles.row}>
             <Input
               required
-              name={'isim'}
+              name="isim"
               type={'text'}
               placeholder={'Adınız'}
               onChange={(e) => setNameValue(e.target.value)}
@@ -86,7 +82,7 @@ function Form({ twoFacts, className }) {
           <div className={styles.row}>
             <Input
               required
-              name={'mail'}
+              name="mail"
               type={'email'}
               placeholder={'E-mail'}
               onChange={(e) => setMailValue(e.target.value)}
@@ -95,13 +91,13 @@ function Form({ twoFacts, className }) {
         </div>
         <div className={styles.row}>
           <TextArea
-            name={'mesaj'}
+            name="mesaj"
             placeholder={'Mesajınız'}
             onChange={(e) => setMessageValue(e.target.value)}
           />
         </div>
         <div className={styles.row}>
-          <Button disabled full type="submit">
+          <Button full type="submit">
             Gönder
           </Button>
         </div>
